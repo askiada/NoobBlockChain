@@ -1,0 +1,2 @@
+all:
+	g++  -o TestChain -std=c++11 main.cpp Transaction.cpp Block.cpp Blockchain.cpp ./sha256/sha256.cpp
